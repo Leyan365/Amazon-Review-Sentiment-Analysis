@@ -13,8 +13,10 @@ The confusion matrices below compare the predicted sentiment to the actual senti
 
 ### VADER Confusion Matrix
 
-![VADER Confusion Matrix](vader_matrix.png)
+![VADER Confusion Matrix]<img width="653" height="552" alt="image" src="https://github.com/user-attachments/assets/afba0a7c-b34d-4a1a-899a-f70357d0384e" />
+
 
 ### RoBERTa Confusion Matrix
 
-![RoBERTa Confusion Matrix](roberta_matrix.png)
+![RoBERTa Confusion Matrix]<img width="653" height="552" alt="image" src="https://github.com/user-attachments/assets/59a67076-1769-4407-945a-ef832efcd463" />
+
