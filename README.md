@@ -11,7 +11,8 @@ The dataset used in this project can be found on Kaggle:
 
 This project leverages several key Python libraries for sentiment analysis, data manipulation, and visualization.
 
-* **Pandas:** The primary tool for managing the dataset, including operations like filtering, applying functions to columns, and structuring the data.
+* **Pandas:**
+* **Numpy:** 
 * **NLTK (Natural Language Toolkit):** This library provides the **VADER** (Valence Aware Dictionary and sEntiment Reasoner) model, a lexicon-based tool specifically designed for sentiment analysis of social media text.
 * **Hugging Face `transformers`:** This is the core of the project's deep learning component. It allows for easy loading and use of the pre-trained **RoBERTa** model, a state-of-the-art transformer for natural language processing tasks.
 * **`tqdm`:** Used to display intelligent progress bars, making it easy to track the status of computationally intensive tasks.
