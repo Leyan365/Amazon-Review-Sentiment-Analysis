@@ -7,16 +7,29 @@ This project performs sentiment analysis on the Amazon Fine Food Reviews dataset
 The dataset used in this project can be found on Kaggle:
 [Amazon Fine Food Reviews Dataset](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
 
+### Libraries Used in this Project
+
+This project leverages several key Python libraries for sentiment analysis, data manipulation, and visualization.
+
+* **Pandas:** The primary tool for managing the dataset, including operations like filtering, applying functions to columns, and structuring the data.
+* **NLTK (Natural Language Toolkit):** This library provides the **VADER** (Valence Aware Dictionary and sEntiment Reasoner) model, a lexicon-based tool specifically designed for sentiment analysis of social media text.
+* **Hugging Face `transformers`:** This is the core of the project's deep learning component. It allows for easy loading and use of the pre-trained **RoBERTa** model, a state-of-the-art transformer for natural language processing tasks.
+* **`tqdm`:** Used to display intelligent progress bars, making it easy to track the status of computationally intensive tasks.
+* **`scikit-learn`:** A foundational machine learning library used here to generate the **confusion matrix**, a critical metric for evaluating the performance of the VADER and RoBERTa models.
+* **Matplotlib** and **Seaborn:** These libraries work together to create the plots and visualizations, specifically the confusion matrices.
+* **`scipy`:** Used for its `softmax` function, which converts the raw model scores into probabilities.
+
+
 ## Results
 
 The confusion matrices below compare the predicted sentiment to the actual sentiment (derived from the star ratings).
 
 ### VADER Confusion Matrix
 
-![VADER Confusion Matrix]<img width="653" height="552" alt="image" src="https://github.com/user-attachments/assets/afba0a7c-b34d-4a1a-899a-f70357d0384e" />
+<img width="653" height="552" alt="image" src="https://github.com/user-attachments/assets/afba0a7c-b34d-4a1a-899a-f70357d0384e" />
 
 
 ### RoBERTa Confusion Matrix
 
-![RoBERTa Confusion Matrix]<img width="653" height="552" alt="image" src="https://github.com/user-attachments/assets/59a67076-1769-4407-945a-ef832efcd463" />
+<img width="653" height="552" alt="image" src="https://github.com/user-attachments/assets/59a67076-1769-4407-945a-ef832efcd463" />
 
